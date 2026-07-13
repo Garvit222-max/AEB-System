@@ -36,4 +36,7 @@ Tomas Bata University, Faculty of Applied Informatics.
 ## Tools Used
 - MATLAB R2024b
 - Simulink (coming next week)
+ ## Career Target
+Junior Test Automation Engineer / ADAS Engineer
+Automotive industry 
 
