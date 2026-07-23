@@ -36,7 +36,26 @@ Tomas Bata University, Faculty of Applied Informatics.
 ## Tools Used
 - MATLAB R2024b
 - Simulink (coming next week)
- ## Career Target
-Junior Test Automation Engineer / ADAS Engineer
-Automotive industry 
+## Phase 2 — Improved Scripts
+## Based on Supervisor Feedback — July 2026
 
+| Script | Description |
+|--------|-------------|
+| AEBsensor.m | Radar and camera sensor fusion with measurement noise |
+| AEBmoving.m | Moving obstacle with relative speed calculation |
+| AEBsigmoid.m | Sigmoid smooth braking vs instant braking |
+| AEBcomfort.m | PID comfort vs safety vs balanced comparison |
+
+## Key Engineering Findings
+
+1. Every 0.5 second reaction delay costs 13 metres of safety margin
+2. Sensor noise can cause AEB system failure — validates sensor fusion need
+3. Sigmoid braking significantly improves passenger comfort
+4. Balanced PID gives best trade-off between safety and comfort
+5. AEB fails at 130 km/h with 80 metre detection range
+6. Icy road stopping distance is 4x longer than dry road
+7. Moving obstacle relative speed calculation is critical for realistic AEB
+
+## Supervisor Feedback
+Prof. Radek Matušů — Tomas Bata University:
+"Excellent progress with systematic approach"
